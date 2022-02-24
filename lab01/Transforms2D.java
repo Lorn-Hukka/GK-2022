@@ -17,10 +17,7 @@ public class Transforms2D extends JPanel {
 			g2.translate(300,300);  // Moves (0,0) to the center of the display.
 			int whichTransform = transformSelect.getSelectedIndex();
 
-			// System.out.println(whichTransform);
-
 			switch (whichTransform) {
-
 				case 1:
 					g2.scale(0.25, 0.25);
 					break;
@@ -28,8 +25,6 @@ public class Transforms2D extends JPanel {
 					g2.rotate(Math.toRadians(45));
 					break;
 				case 3:
-				
-					
 					g2.scale(-0.4, 0.9);
 					g2.rotate(Math.toRadians(180));
 					break;
@@ -58,7 +53,6 @@ public class Transforms2D extends JPanel {
 					g2.shear(0, 0.3);
 					g2.translate(-100, 0);
 					break;
-
 				case 0:
 				default:
 					break;
@@ -76,7 +70,6 @@ public class Transforms2D extends JPanel {
 			g2.fillPolygon(poly);
 
 			// g2.drawImage(pic, -200, -150, null);
-
 
 		}
 	}
