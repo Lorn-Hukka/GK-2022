@@ -85,7 +85,6 @@ public class Lab5 extends GLJPanel implements GLEventListener, KeyListener{
 
 	private void corkscrew(GL2 gl2) {
 
-
 		int amountOfPoints = 1000;
 
 		for (int i = 0; i < amountOfPoints; i++)
